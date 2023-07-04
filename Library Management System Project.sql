@@ -1,0 +1,1 @@
+SELECT * FROM ((BookLoans FULL OUTER JOIN Borrower ON BookLoans.CardNo = Borrower.CardNo) FULL OUTER JOIN Books ON BookLoans.BookID = Books.BookID)
